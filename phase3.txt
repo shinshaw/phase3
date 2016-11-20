@@ -1,0 +1,52 @@
+SQL Query Location and what it does
+
+1. index.php: matching Username and Password
+
+2. appvreq.php: deploy resource to other's request
+
+3. deploy.php: deploy user's own resource
+
+4. home.php: return user's extra information 
+
+5. newinci.php: insert new incident
+
+6. newrec.php:
+	a. populate dropdown list (ESFs and  Cost unit type)
+	b. insert new resource
+	c. insert addtional ESFs
+	d. insert capabilities
+
+7.reject.php: reject request
+
+8.repair.php: schedule repair
+
+9.request.php: request resource
+
+10.resrpt.php: resource summary by primary ESF and Summary in Total 
+
+11. ressts.php:
+	a. resource IN USE
+	b. resource requested by user
+	c. resource request to user by others 
+	d. repair scheduled/in progress
+	e. Request by user that last status is "REJECTED"
+
+12. return.php: return resource
+
+13. rmvreq.php: cancel request
+
+14.	rmvrpr.php: cancel repair
+
+15. searchres.php
+	a. populate dropdown list for ESF and incident
+	b. search resource without incident selected
+	c. search resource with incident selected
+
+ 
+
+
+
+
+ 
+
+

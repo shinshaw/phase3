@@ -1,0 +1,86 @@
+*{
+    font-family:sans-serif;
+    font-size:16px;
+}
+body{
+    border:0;
+    padding:80px;
+    margin:auto;
+    height:100%;
+}
+body{
+    background:#778899;
+    font-size:1em;
+}
+section{
+    background: white;
+    width:95%;
+    margin:auto;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.7);
+    font-family:lato;
+    position:relative;
+    color:#333;
+    border-radius:10px;
+
+}
+section header{
+    background:#778899;
+    padding:30px 20px 30px 30px;
+    color:white;
+    font-size:1.8em;
+    font-weight:600;
+    border-radius: 10px 10px 0 0;
+    position:relative;
+}
+
+section header .user_info{
+    text-align: center;
+    font-size:.7em;
+    position: absolute;
+    bottom:5px;
+    right: 40px;
+}
+table{
+    margin:auto;
+    width:95%;
+    border-collapse:collapse;
+    border: 1px solid #778899;
+}
+Table,th {
+    border: 1px solid #778899;
+}
+th, td{
+    padding:5px;
+    text-align: left;
+}
+.title {
+    background:#778899;
+    color:white;
+    font-size:1em;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.buttons {
+    display:block;
+    width: 50%;
+    margin-left:550px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.buttons input{
+    font-family: inherit;
+    color:white;
+    background: #778899;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.1em;
+    font-weight: 400;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    margin-bottom : 20px;
+    margin-left:15px;
+}

@@ -1,0 +1,215 @@
+*{
+    font-family:sans-serif;
+    font-size:16px;
+}
+body{
+    border:0;
+    padding:80px;
+    margin:auto;
+    height:100%;
+}
+body{
+    background:#778899;
+    font-size:1em;
+}
+form{
+    background: white;
+    width:70%;
+    margin:auto;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.7);
+    font-family:lato;
+    position:relative;
+    color:#333;
+    border-radius:10px;
+
+}
+
+form header{
+    background:#778899;
+    padding:30px 20px 30px 30px;
+    color:white;
+    font-size:1.8em;
+    font-weight:600;
+    border-radius: 10px 10px 0 0;
+    position:relative;
+}
+
+#owner-label{
+    float:left;
+    font-weight:bold;
+    width: 150px;
+    margin-left:30px;
+}
+.input-owner label{
+    float: none;
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 20px;
+}
+
+#name-label{
+    float:left;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 30px;
+}
+
+ .input-name input{
+    float: none;
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 20px;
+}
+
+#P_ESF-label {
+    float:left;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 30px;
+}
+ .select-primaryESF select{
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 20px;
+     width: 250px;
+}
+
+#A_ESF-label{
+    float:left;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 30px;
+}
+ .select-additionalESFs select{
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 20px;
+
+}
+
+
+#model-label{
+    float:left;
+    font-weight: bold;
+    width:150px;
+    margin-left: 30px;
+}
+ .input-model input{
+    float: none;
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 20px;
+}
+
+#cost-label{
+    float: left;
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 30px;
+    font-weight: bold;
+    width:150px;
+}
+
+.input-cost input, .input-cost select{
+    display: inline-block;
+    vertical-align:middle;
+}
+#dollar{
+    float:left;
+    margin-left: 20px;
+    margin-right:5px;
+}
+#per{
+    margin-left:5px;
+    nargin-right:5px;
+}
+
+
+.input-cost input{
+    width:80px;
+}
+.input-capabilities{
+    overflow:auto;
+}
+#capabilities-label{
+    float:left;
+    font-weight: bold;
+    width:150px;
+    margin-left: 30px;
+}
+
+.input-capabilities label, .input-capabilities input, .input-capabilities button, .input-capabilities textarea{
+    float: none;
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 20px;
+}
+
+#caps{
+    border:1px solid black;
+    width: 250px;
+    height:auto;
+    min-height:100px;
+    vertical-align:top;
+    float: right;
+    margin-right: 200px;
+}
+
+
+.location{
+    overflow:auto;
+}
+#home-location{
+    font-weight: bold;
+    width:150px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.location label {
+    display: inline-block;
+    vertical-align:middle;
+    margin-left:30px;
+    width:110px;
+}
+
+.location input{
+    display: inline-block;
+    vertical-align:middle;
+    margin-top:10px;
+    margin-left:20px;
+    width: 150px;
+}
+
+.input-location {
+    float: left;
+}
+
+#map {
+    vertical-align:top;
+    float:right;
+    margin-right:100px;
+}
+.buttons {
+    display:block;
+    width: 50%;
+    margin-left:350px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.buttons input{
+    font-family: inherit;
+    color:white;
+    background: #778899;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.3em;
+    font-weight: 400;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    margin-bottom : 20px;
+    margin-left:15px;
+}
